@@ -1,0 +1,142 @@
+{
+  "links": {
+    "(11,19)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(9,10)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(5,13)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(18,16)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(2,10)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(17,14)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(7,8)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(15,13)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,12)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(16,17)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,9)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(21,22)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(2,6)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(14,21)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(2,3)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(3,4)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,11)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(16,15)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,5)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(4,5)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(10,11)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(19,20)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1,2)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(13,14)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(19,22)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(22,23)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(20,21)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    }
+  },
+  "data_type": "Interval",
+  "serialization": "compact",
+  "description": "Link/edge probabilities for network analysis"
+}

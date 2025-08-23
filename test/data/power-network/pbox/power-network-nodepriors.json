@@ -1,0 +1,168 @@
+{
+  "nodes": {
+    "4": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "1": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "12": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "20": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "2": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "6": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "23": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "22": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "11": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "13": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "5": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "15": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "16": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "14": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "21": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "7": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "8": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "17": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "19": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "10": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "9": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "18": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "3": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    }
+  },
+  "data_type": "ProbabilityBoundsAnalysis.pbox",
+  "serialization": "compact",
+  "description": "Node prior probabilities for network analysis"
+}

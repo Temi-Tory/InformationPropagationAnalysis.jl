@@ -1,0 +1,196 @@
+{
+  "links": {
+    "(11,19)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(9,10)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(5,13)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(18,16)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(2,10)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(17,14)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(7,8)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(15,13)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(8,12)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(16,17)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(8,9)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(21,22)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(2,6)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(14,21)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(2,3)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(3,4)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(12,11)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(16,15)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(6,5)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(4,5)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(10,11)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(19,20)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(1,2)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(13,14)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(19,22)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(22,23)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    },
+    "(20,21)": {
+      "name": "",
+      "shape": "",
+      "construction_type": "scalar",
+      "value": 0.9,
+      "type": "pbox"
+    }
+  },
+  "data_type": "ProbabilityBoundsAnalysis.pbox",
+  "serialization": "compact",
+  "description": "Link/edge probabilities for network analysis"
+}
