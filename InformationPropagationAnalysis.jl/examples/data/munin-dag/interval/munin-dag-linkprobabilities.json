@@ -1,0 +1,6992 @@
+{
+  "links": {
+    "(885,529)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(498,500)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(67,428)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(699,687)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(272,278)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(247,277)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(167,66)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(447,464)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(768,604)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(936,577)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(412,424)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(7,663)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(17,23)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(238,232)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(652,676)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(699,1025)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,141)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(7,151)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(310,171)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(405,417)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(296,164)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(792,798)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(820,814)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(188,283)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(769,774)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(193,334)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(52,73)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(923,935)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(835,565)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(302,347)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(967,1002)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(180,363)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(616,626)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(880,882)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(428,375)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(821,811)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(581,590)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(724,730)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(52,61)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(698,686)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(866,857)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(433,389)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(770,775)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(675,834)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,136)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(250,280)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(263,269)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(505,514)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(887,534)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(307,305)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(810,678)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(566,575)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(752,737)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(845,851)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(238,223)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(7,146)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(624,632)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(842,841)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(988,997)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(668,978)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(239,222)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(820,817)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(257,259)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(361,354)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(237,230)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(163,322)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(391,415)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(237,233)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,142)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(921,933)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,4)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(533,1029)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(879,881)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(387,31)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(174,470)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(452,486)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(826,1016)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(610,615)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,661)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,4)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(110,96)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(729,831)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(531,528)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(211,217)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(831,533)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(695,684)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(727,829)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(131,388)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1007,986)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(106,105)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(858,845)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(376,56)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,147)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(255,261)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(752,743)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(335,345)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(759,726)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(821,810)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(535,528)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(226,484)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(712,866)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(16,129)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(27,26)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(927,939)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(966,1000)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(236,518)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(770,772)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(645,902)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,652)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(917,929)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(752,738)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(325,503)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,691)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,138)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(444,110)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(705,800)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,153)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(971,1026)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,689)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,691)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(751,1040)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(503,493)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(185,173)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(422,63)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(307,304)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(567,564)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(848,846)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(807,675)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(693,871)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,186)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(822,808)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(7,664)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(769,775)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(400,424)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(251,281)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(614,622)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(7,147)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(919,931)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(930,886)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(952,964)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(782,620)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(212,218)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(612,614)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,656)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,175)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(238,222)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(711,864)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(545,941)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1020,1035)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(58,71)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(306,301)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(875,868)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(231,228)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,177)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(7,148)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(288,156)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(15,44)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(358,57)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(238,224)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,652)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(696,741)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(925,937)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(702,797)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(432,19)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(180,362)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1,11)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(642,611)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(708,853)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(488,487)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(166,324)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(273,279)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(840,841)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(966,999)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(20,42)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,699)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,151)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(441,390)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(169,352)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(410,422)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(309,170)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(783,623)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1013,986)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(569,874)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(230,227)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(965,992)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(238,220)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(256,260)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1040,1038)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(455,502)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,3)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1002,1005)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(822,812)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(258,264)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(902,624)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(751,746)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(965,994)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(751,744)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(603,605)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(503,494)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(426,380)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,655)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,143)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(255,92)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(832,534)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,185)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(725,731)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(253,252)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,698)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1031,1020)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(649,673)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(344,331)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,135)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(771,776)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(769,606)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,4)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(466,458)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(398,422)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1018,1027)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(235,510)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(607,631)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,696)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(345,329)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(700,1033)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(110,122)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(609,645)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(137,161)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,178)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(274,280)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(581,574)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(767,766)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,155)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(565,596)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(182,485)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(701,796)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(200,363)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(751,745)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(781,613)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,3)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1012,1014)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(55,62)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(752,745)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(341,332)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(896,901)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(920,932)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(249,279)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(175,335)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(817,865)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(871,869)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(537,547)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,692)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(161,320)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,696)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(821,812)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(820,880)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(673,832)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,647)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(19,26)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,133)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(277,283)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(967,1003)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(186,518)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(237,232)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(256,258)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,182)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(773,779)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(751,748)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(610,641)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(399,423)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(756,723)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(17,22)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,132)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,149)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(401,425)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(308,299)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(924,936)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(308,294)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(186,519)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,132)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(664,782)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(764,794)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(365,367)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(751,749)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(5,6)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(745,742)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(306,294)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(92,89)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(187,282)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(451,479)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(153,463)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(789,795)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(257,262)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(198,352)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(7,660)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(541,540)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(451,480)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(67,60)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(821,814)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(718,724)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(181,225)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(140,164)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(743,739)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(874,867)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(757,724)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(738,732)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(503,496)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(503,495)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(205,211)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(382,387)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,659)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(143,167)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(471,477)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(916,940)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(213,315)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(352,343)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(955,904)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(110,429)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(933,889)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(95,131)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(565,595)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(307,297)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(132,156)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(275,281)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,656)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,139)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(978,972)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(181,479)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(752,734)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(723,729)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(770,773)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(796,835)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,137)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(795,801)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(308,295)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(307,298)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,179)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(294,162)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(696,740)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(564,588)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(720,726)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(770,776)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(569,576)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(786,792)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(53,58)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(567,598)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(800,838)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(666,975)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(761,791)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(623,640)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,693)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(986,995)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(322,52)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(270,276)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(96,101)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(785,791)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(366,368)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(307,299)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(572,582)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(430,449)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(320,30)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(470,466)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(323,56)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(220,214)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(129,387)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(765,795)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(630,627)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(967,1006)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1015,1013)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(780,612)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1014,988)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(822,811)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(176,339)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,664)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(751,734)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(110,120)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(620,619)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(975,980)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(863,845)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(307,302)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(965,993)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(221,215)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(754,721)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(151,269)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(439,378)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(473,482)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1017,1010)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(110,118)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(154,464)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(58,68)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(493,472)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(408,420)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(674,833)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,653)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(306,296)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(679,837)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(182,226)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(403,415)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,666)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(223,217)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,184)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(904,893)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(577,576)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(662,780)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(607,600)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(820,815)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(295,163)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(567,573)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(427,449)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(450,377)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(385,390)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(653,677)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(644,581)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(261,267)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(531,536)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(935,890)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(544,561)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(822,813)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(614,607)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(150,268)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,176)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(992,989)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(573,583)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(281,287)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(17,14)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(713,871)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(175,334)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(609,630)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(378,95)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(201,207)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(771,772)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(722,728)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(784,790)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,667)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(15,46)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(709,854)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(567,572)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,654)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(545,557)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(895,903)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(658,601)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(195,340)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(165,323)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(903,887)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(414,426)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(257,263)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(855,846)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(236,520)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(96,107)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(821,808)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(500,474)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(940,894)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(770,777)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(389,373)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,148)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,697)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(457,512)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(776,782)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(7,144)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(823,684)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,660)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(434,374)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(746,1011)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(215,317)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,663)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(19,515)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(624,943)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(452,485)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(306,370)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(134,158)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(490,475)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(981,982)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(268,106)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(339,344)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(536,549)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(360,353)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,178)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(458,460)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(753,734)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(237,220)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(334,332)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(763,793)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(472,481)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(934,566)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(156,315)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(760,790)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(146,264)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(694,877)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,654)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(852,857)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(581,942)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(306,300)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,651)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(913,937)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(202,208)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(52,130)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(128,108)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(610,607)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(17,37)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,152)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(492,491)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1,7)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(860,862)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(964,891)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(744,741)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(445,461)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(492,471)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(610,630)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(734,728)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(488,491)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(255,262)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(751,736)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(660,778)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1017,1009)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,139)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(963,885)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(853,858)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(155,174)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(947,903)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(672,831)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,138)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(689,849)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(255,260)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(31,39)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(529,559)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(752,736)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(14,509)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(100,108)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(821,819)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(93,86)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(338,343)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(459,462)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(392,416)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(527,525)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,140)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(50,74)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(159,318)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(7,665)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(306,295)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,651)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(736,730)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(239,223)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(66,83)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(966,998)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,695)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(683,866)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(829,529)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(818,683)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(834,544)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(742,1003)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(31,24)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(237,234)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(770,774)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(237,236)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(655,679)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,649)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(682,856)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(616,629)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(985,991)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,649)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(289,157)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(944,963)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(168,342)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(820,812)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(882,868)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(449,371)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,665)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(259,265)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(229,225)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(794,800)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,668)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(292,160)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(306,304)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(262,268)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(533,1031)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(960,977)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(421,376)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(469,468)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(109,126)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(726,732)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(7,145)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(814,849)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(564,568)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(306,366)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(306,303)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,179)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1034,1031)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,141)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(397,421)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(820,884)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(7,150)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(402,426)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(700,1034)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(110,119)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(280,286)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1006,1001)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(191,286)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(735,729)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(264,94)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1006,1005)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(246,276)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,668)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,662)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(57,50)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(437,87)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,152)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(238,235)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(801,580)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(979,973)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(222,216)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(67,76)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(23,36)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,657)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(53,64)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,144)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(839,1017)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,184)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(470,465)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(269,109)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,647)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(656,680)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(55,360)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(931,887)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(771,775)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(369,367)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(772,778)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(380,106)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(821,813)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(685,1006)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(381,389)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(697,1002)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(266,98)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(825,1012)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(699,1024)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1032,1029)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(218,320)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(216,318)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(300,335)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(918,930)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(753,736)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(545,553)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(136,160)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(257,261)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(779,609)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,646)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(536,546)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(788,794)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(324,63)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(564,870)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,177)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(733,727)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,135)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1000,1009)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(7,149)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(504,513)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(327,174)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(808,676)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(158,317)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(305,358)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(49,29)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(308,297)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(467,468)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(872,571)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(145,90)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(21,14)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(465,459)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(696,999)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(750,1032)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(51,81)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,655)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(110,103)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(602,603)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(396,420)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,648)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(968,1012)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(171,492)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(833,541)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(771,773)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(982,973)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(844,850)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1017,1007)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(375,51)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(523,525)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(516,505)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,135)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(608,638)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(184,172)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(448,470)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,655)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(820,809)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(938,892)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(778,608)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,154)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(909,933)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(732,834)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(716,722)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1041,1039)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(116,113)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(751,733)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(390,379)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(331,337)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(620,610)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(106,96)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(608,637)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(383,376)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(31,40)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(55,57)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(972,974)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(183,171)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(769,768)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,700)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(244,211)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(769,776)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(563,532)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(820,818)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,693)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(49,18)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,176)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(239,220)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(828,687)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(707,848)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(370,368)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,180)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(94,123)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(813,681)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(566,644)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(752,748)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(206,212)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(53,73)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(657,681)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(329,333)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(897,890)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(706,801)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(228,489)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(214,316)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(343,330)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(256,263)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(581,593)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(941,963)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(19,516)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,667)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(821,818)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(624,636)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(911,935)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(340,341)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(700,1032)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(697,742)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(753,738)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(177,168)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(816,861)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,3)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(368,354)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(876,874)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(7,2)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,699)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(94,125)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,2)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(612,619)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(642,622)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(752,1036)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(394,418)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(741,1000)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(95,116)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(51,80)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,669)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(484,493)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(912,936)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(307,296)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,650)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(170,480)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(566,587)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(905,929)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(59,69)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(371,15)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(797,836)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,185)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(179,357)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(519,516)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(624,610)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(478,475)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(530,551)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,652)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(524,504)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(425,379)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,660)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(571,564)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(256,261)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(474,483)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(987,996)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(798,569)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(407,419)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(820,808)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,698)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(908,932)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1016,1014)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(144,87)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(197,350)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(730,832)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(581,589)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(690,853)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(423,377)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(891,608)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1010,985)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(237,223)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(31,43)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(751,747)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(243,210)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(890,570)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(567,587)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(350,348)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(495,474)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1036,1038)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(894,620)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(485,494)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(278,284)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(102,112)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(821,880)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(238,221)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,669)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(96,116)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(665,783)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,647)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(239,219)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(443,109)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(954,612)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(821,816)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(856,855)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(843,847)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(928,940)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,692)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,690)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(237,526)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(648,672)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(374,27)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(529,560)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(298,166)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(95,104)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(864,862)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(581,591)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,700)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(19,21)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(352,345)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(534,556)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1037,1039)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1002,1001)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(849,859)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(10,5)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(530,539)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(531,562)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(238,231)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(969,1015)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(386,388)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(899,904)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(468,459)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(238,229)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(15,45)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1004,989)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(787,793)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(453,489)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(135,159)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(303,351)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,143)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(367,353)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(601,614)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(438,450)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(892,609)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(63,62)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,690)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(737,731)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(149,267)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(755,722)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,186)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(207,213)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,138)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(30,47)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(141,165)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(50,54)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(442,380)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(684,994)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(983,982)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(710,860)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(529,558)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(203,209)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,697)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(531,551)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(957,623)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(805,673)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(984,979)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(680,838)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(363,361)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(610,621)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,658)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(353,359)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(969,1016)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,695)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(237,222)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(377,94)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(939,893)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(528,552)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(526,524)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(886,530)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(731,833)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(37,34)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(252,325)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(453,488)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(210,216)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(313,172)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(304,169)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(994,1010)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(57,65)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(910,934)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(838,577)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(217,319)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(697,685)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(257,258)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,134)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(573,586)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(753,737)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(804,672)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(613,635)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(287,66)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(929,885)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(19,517)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(255,258)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(667,977)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(511,508)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(854,855)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(624,617)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1033,1030)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(147,265)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(948,888)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(14,18)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(183,488)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(162,321)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(914,938)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(669,688)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(492,487)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(307,294)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(133,157)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(237,231)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(67,79)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(293,161)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(351,349)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(803,671)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(208,214)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(751,735)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(230,226)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(182,227)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(297,165)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(7,661)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(219,213)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(245,212)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(752,733)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(435,30)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(681,580)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(16,25)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(647,671)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(160,319)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(301,168)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(22,35)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(551,548)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(234,252)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(946,533)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,150)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(452,484)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(22,32)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(694,876)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(968,1011)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(100,93)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(411,423)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,175)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(862,844)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(342,341)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,180)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(362,360)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(956,894)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(128,97)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(643,901)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,661)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(342,329)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(440,98)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(654,678)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(286,324)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(307,301)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(409,421)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,653)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(311,498)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(670,829)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(395,419)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(506,521)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(950,545)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(900,902)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(63,53)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(822,809)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(502,500)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(951,601)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(689,848)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(181,170)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(610,616)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(758,725)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(750,1034)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1024,1021)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,648)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(518,515)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(267,99)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,141)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(528,532)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(186,520)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(9,11)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(307,366)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,147)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(319,27)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(31,427)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(856,843)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(418,374)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,646)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(17,28)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(307,295)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(609,618)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(751,1036)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(461,466)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(88,89)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(237,221)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,133)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(93,117)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(53,59)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(255,254)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(677,836)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(751,750)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(330,336)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1,6)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,142)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(240,207)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(581,567)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(866,859)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(973,976)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(494,473)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(740,998)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(254,90)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(827,686)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(703,798)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(569,571)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(17,48)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(464,458)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(326,327)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1001,1004)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(13,5)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(316,16)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(446,463)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(454,498)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(599,568)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(237,229)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(73,70)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(239,224)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(809,677)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(307,300)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(172,325)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(241,208)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(501,499)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(868,878)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(861,863)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(769,772)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(752,746)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(793,799)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(744,740)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,656)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(517,506)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(777,783)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(157,316)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(348,330)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(192,287)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(420,52)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(959,975)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(572,585)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,649)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,694)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(604,602)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(299,167)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(571,579)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(179,358)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(209,215)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(695,993)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(424,378)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,146)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(16,37)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(256,262)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(751,743)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(525,506)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(190,285)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,155)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(23,33)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(283,322)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(173,512)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(238,522)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(431,372)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,149)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(624,633)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1003,1004)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(233,501)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(753,733)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(328,327)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(671,830)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(567,578)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(291,159)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(384,67)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,694)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(841,688)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(691,854)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(148,266)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(932,888)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(96,102)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(279,285)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(419,375)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(993,990)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(142,166)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(530,643)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,133)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(815,682)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(456,503)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(531,537)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(659,604)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(237,235)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(138,162)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(799,837)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(565,594)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,663)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(721,727)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1005,990)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,146)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(406,418)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(497,499)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(10,9)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(752,749)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(692,683)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,153)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(486,495)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(260,266)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,140)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(606,603)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(520,517)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(717,723)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(836,566)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,142)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(379,99)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(98,105)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(491,476)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(774,780)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(747,1015)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(67,53)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,150)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(199,357)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(352,344)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(775,781)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(248,278)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(820,816)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1025,1022)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1038,1018)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(152,461)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1029,1018)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(998,1007)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(820,819)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(96,93)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(980,972)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(306,302)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1017,1008)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(413,425)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(545,531)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(690,852)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(866,858)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(237,219)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(101,111)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(306,298)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(577,567)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(14,38)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(373,20)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(762,792)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1030,1019)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(227,486)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(791,797)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(728,830)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(96,127)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(719,725)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(650,674)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,137)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(819,872)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(5,7)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(937,891)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(480,496)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(615,625)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(867,873)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(739,992)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(224,218)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,181)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(51,82)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(89,91)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(7,658)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(901,545)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(56,78)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,653)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(528,1023)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(285,323)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(225,478)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,650)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(196,346)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(185,510)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(943,964)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(314,173)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(970,1017)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(67,77)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(436,31)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(580,597)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(178,169)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(820,810)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(646,670)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(354,364)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(372,16)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(416,372)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(884,882)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(87,100)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(945,886)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(676,835)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(238,219)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(881,867)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(176,338)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(312,502)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1006,985)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(949,544)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(821,815)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,650)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(85,65)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(90,88)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(715,721)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(453,492)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,2)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(189,284)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1026,535)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(693,872)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(541,531)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(404,416)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(99,121)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,134)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(958,624)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(962,984)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(686,839)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,664)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(812,680)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(599,579)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(857,844)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(496,471)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(545,538)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(612,602)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(139,163)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,689)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(346,348)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1009,988)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(510,507)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(512,21)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(769,773)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(953,892)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(889,565)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(766,839)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,182)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(183,228)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(185,511)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,183)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(749,1024)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(282,321)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(27,17)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(688,984)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(545,555)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(276,282)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(499,472)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(463,465)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(942,889)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,646)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(531,542)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(569,875)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1039,1020)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(883,881)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(55,361)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(308,298)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(533,535)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(607,611)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,154)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,136)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(7,659)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(687,1026)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(748,766)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(624,634)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,666)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(587,584)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1008,987)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(922,934)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(451,478)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,145)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(533,1030)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(21,29)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(898,581)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(349,331)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(306,297)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(811,679)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(98,100)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(85,54)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(915,939)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(321,51)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(714,877)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(388,110)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(806,674)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(101,114)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(893,613)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(479,476)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(13,9)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(563,543)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(237,522)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(661,779)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(691,682)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(704,799)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(999,1008)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(429,450)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(790,796)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(306,305)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(53,84)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(977,979)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(859,843)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(877,875)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(545,554)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(347,349)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(255,259)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(164,55)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(417,373)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(393,417)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(130,67)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(204,210)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(455,501)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(821,809)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(663,781)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(102,115)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(415,371)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(256,259)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(651,675)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(12,657)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(906,930)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(271,277)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(454,497)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(98,88)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(608,639)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(265,95)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(515,504)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(232,497)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(318,20)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(570,592)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(194,339)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,139)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(11,181)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(752,735)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(907,931)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(315,15)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(820,811)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(7,662)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(67,75)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(830,530)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(837,570)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(926,938)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(824,685)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,183)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(94,124)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(888,541)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(357,355)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(533,540)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(8,132)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(961,978)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(537,550)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(489,490)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(242,209)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(865,863)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(487,490)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(59,72)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(238,234)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(751,737)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(615,628)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(771,777)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(31,17)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(177,340)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(284,55)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1019,1028)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(50,356)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(695,739)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(317,19)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(53,50)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(984,980)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(31,41)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(93,97)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(290,158)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(802,670)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(535,543)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(522,524)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(678,569)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(6,136)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    },
+    "(1011,1013)": {
+      "lower": 0.9,
+      "type": "interval",
+      "upper": 0.9
+    }
+  },
+  "data_type": "Interval",
+  "serialization": "compact",
+  "description": "Link/edge probabilities for network analysis"
+}

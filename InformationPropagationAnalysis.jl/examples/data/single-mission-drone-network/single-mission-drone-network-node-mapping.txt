@@ -1,0 +1,116 @@
+Power_Node_ID,Drone_Facility_ID,Facility_Name,Node_Type,Latitude,Longitude
+1,140,"Bungalows/Red Lodge",H,56.0202128,-3.837346211
+2,63,"Balfour Hospital",H,58.97412018,-2.963844233
+3,233,"University Hospital Wishaw",H,55.77374293,-3.94042798
+4,257,"Bathgate House Day Hospital",H,55.90194772,-3.641937275
+5,98,"Three Towns Resource Centre",H,55.6396381,-4.770025661
+6,18,"Lochview Hospital (Forth Valley Royal Hospital)",H,56.02804111,-3.844555495
+7,130,"St Andrews Community Hospital",H,56.32774528,-2.804063191
+8,79,"Western Isles Hospital",H,58.22148589,-6.382504582
+9,53,"new",new,58.17604371,-4.092198507
+10,243,"Edinburgh Dental Institute",H,55.94414689,-3.196941762
+11,118,"Newton Stewart Hospital",H,54.95103654,-4.490623744
+12,185,"Ugie Hospital",H,57.51538041,-1.792753795
+13,225,"Roadmeetings Hospital",H,55.72963089,-3.811487007
+14,195,"Islay Hospital",H,55.7558601,-6.278215216
+15,15,"Victoria Hospital",H,56.12519279,-3.158700518
+16,133,"Weston Day Hospital",H,56.31855927,-3.018245422
+17,44,"new",new,56.54605839,-4.733614026
+18,114,"Kirkcudbright Cottage Hospital",H,54.83444404,-4.049303582
+19,73,"new",new,60.12535509,-2.054196977
+20,59,"University Hospital Monklands",H,55.8659408,-3.998281093
+21,183,"Turriff Cottage Hospital",H,57.53734207,-2.449308321
+22,150,"Acorn Street Day Hospital",H,55.8467593,-4.223569292
+23,138,"Bellsdyke Hospital",H,56.03504609,-3.818273686
+24,127,"Midpark Hospital",H,55.05259832,-3.58695362
+25,65,"Eday Airport",A,59.19060135,-2.772219896
+26,203,"Lawson Memorial Hospital",H,57.97329514,-3.98626108
+27,23,"Aberdeen Dyce Airport",A,57.2019,-2.19778
+28,236,"Corstorphine Hospital",H,55.94301171,-3.269943375
+29,182,"Jubilee Hospital",H,57.44344284,-2.788813164
+30,16,"Dundee Airport",A,56.45249939,-3.02583003
+31,141,"Clackmannanshire Community Healthcare Centre",H,56.12478022,-3.782199491
+32,172,"The Mary Aitkenhead Centre",H,55.8947143,-4.384344928
+33,94,"Ailsa Hospital",H,55.43418885,-4.591883282
+34,87,"Perth Airport",A,56.43578293,-3.370727821
+35,21,"Glasgow International Airport",A,55.871899,-4.43306
+36,259,"Midlothian Community Hospital",H,55.88029515,-3.088724814
+37,216,"Mull and Iona Community Hospital",H,56.47959836,-5.714768434
+38,248,"Glencorse Day Centre",H,55.84777295,-3.189665092
+39,104,"Andrew Lang Unit",H,55.55033014,-2.839448313
+40,88,"North Ronaldsay Airport",new,59.36923404,-2.431068036
+41,10,"Dumfries & Galloway Royal Infirmary",H,55.0588462,-3.657698883
+42,200,"Dunbar Hospital",H,58.58451762,-3.538168965
+43,125,"Laurel Bank (CETU)",H,55.06292255,-3.602475871
+44,109,"Galashiels Psychogeriatric Day Hospital",H,55.61782646,-2.807748979
+45,279,"Whitehills Hospital",H,56.65237417,-2.870139267
+46,34,"Oban  Airport",A,56.46678798,-5.397557268
+47,262,"Royal Victoria Hospital",H,56.46396897,-3.011053694
+48,246,"Royal Hospital for Sick Children (Edinburgh)",H,55.93814726,-3.185436819
+49,20,"Queen Elizabeth University Hospital",H,55.86270871,-4.336845035
+50,202,"Wick Town and County Hospital",H,58.43309857,-3.096742837
+51,187,"Dr Gray's Hospital",H,57.64589268,-3.330468391
+52,159,"Florence Street Mental Health Resource Centre",H,55.85186975,-4.245560573
+53,176,"Aboyne Hospital",H,57.07643789,-2.765467882
+54,171,"Netherton",H,55.89505605,-4.329415592
+55,192,"375 Great Western Lodge",H,57.13417605,-2.127455288
+56,90,"Arran War Memorial Hospital",H,55.54315331,-5.114359851
+57,250,"Ballenden House",H,55.9444908,-3.180858496
+58,235,"Belhaven Hospital",H,55.99591579,-2.53617233
+59,256,"Ferryfield House",H,55.97207592,-3.229021222
+60,178,"Roxburghe House",H,57.15721439,-2.124360202
+61,168,"Arndale Resource Centre",H,55.90942803,-4.348857013
+62,269,"St Margaret's Hospital",H,56.29387341,-3.717919065
+63,272,"Murray Royal Hospital",H,56.40047419,-3.410730583
+64,260,"East Lothian Community Hospital",H,55.95715125,-2.795514921
+65,270,"Aberfeldy Cottage Hospital",H,56.61863517,-3.859065662
+66,41,"new",new,57.33490808,-5.540030481
+67,80,"Stornoway Airport",A,58.215599,-6.33111
+68,251,"St Michael's Hospital",H,55.97503746,-3.585907137
+69,146,"Blythswood House",H,55.88034649,-4.387317634
+70,131,"Randolph Wemyss Memorial Hospital",H,56.17721134,-3.025761579
+71,143,"Vale of Leven General Hospital",H,55.99316724,-4.590578906
+72,238,"Edington Cottage Hospital",H,56.05557239,-2.716843114
+73,283,"Pitlochry Community Hospital",H,56.70160803,-3.73581816
+74,129,"Adamson Hospital",H,56.32441458,-3.016476797
+75,6,"Borders General Hospital",H,55.59548794,-2.740474678
+76,160,"Shawmill Resource Centre",H,55.8265766,-4.29518636
+77,276,"Little Cairnie Hospital",H,56.56795065,-2.606457761
+78,237,"Edenhall Hospital",H,55.93689091,-3.034627515
+79,201,"Caithness General Hospital",H,58.44171715,-3.094184124
+80,288,"St Brendans Cot Hospital",H,56.95228577,-7.496280665
+81,92,"Lady Margaret Hospital",H,55.76135748,-4.921581923
+82,120,"Annan Hospital",H,54.98815386,-3.245571404
+83,193,"Argyll and Bute Hospital",H,56.03530247,-5.427977833
+84,151,"Parkview Resource Centre",H,55.85020447,-4.172620246
+85,218,"Victoria Memorial Cottage Hospital",H,55.97686919,-4.06856589
+86,267,"Royal Victoria Day Hospital",H,56.46265803,-3.012311044
+87,229,"University Hospital Hairmyres",H,55.75998173,-4.220715026
+88,215,"Migdale Hospital",H,57.89167493,-4.341446222
+89,271,"Blairgowrie & Rattray Cottage Hospital",H,56.5860307,-3.344854159
+90,277,"Montrose Royal Infirmary",H,56.70789536,-2.472990997
+91,30,"Wick Airport",A,58.45890045,-3.093060017
+92,28,"Raigmore Hospital",H,57.47407751,-4.191111893
+93,144,"Inverclyde Royal Hospital",H,55.94438602,-4.808629296
+94,91,"Ayrshire Central Hospital",H,55.63461331,-4.676906809
+95,83,"new",new,57.76643301,-7.027993699
+96,108,"Peebles Psychogeriatric Day Hospital",H,55.65155396,-3.181355872
+97,264,"Strathmartine Hospital",H,56.50461339,-3.002135832
+98,124,"Innistaigh",H,54.89862985,-5.021175739
+99,93,"Warrix Avenue Mental Health Community Rehabilitation Unit",H,55.61190847,-4.658983516
+100,162,"Centre for Integrative Care",H,55.88073775,-4.313853803
+101,101,"The Knoll Hospital",H,55.77263743,-2.339900107
+102,179,"Inverurie Hospital",H,57.27678856,-2.378035362
+103,112,"Crichton Royal Hospital",H,55.05683478,-3.597721967
+104,249,"Bonnyrigg Day Centre",H,55.87270787,-3.061243781
+105,177,"Glen O'Dee Hospital",H,57.05934867,-2.519829255
+106,247,"Cambridge Street Day Centre",H,55.94790711,-3.203928301
+107,96,"Biggart Hospital",H,55.49259795,-4.603636983
+108,49,"new",new,58.56491488,-4.889286107
+109,180,"Peterhead Community Hospital",H,57.50258644,-1.791941805
+110,209,"Portree Hospital",H,57.41055233,-6.191859131
+111,29,"Inverness Airport",A,57.54249954,-4.047500134
+112,265,"Hawkhill Day Hospital",H,56.45726248,-2.990551095
+113,128,"Cameron Hospital",H,56.18651381,-3.05648161
+114,153,"Stobhill Hospital",H,55.89296032,-4.218565887
+115,76,"Ninewells Hospital",H,56.46180151,-2.989936931
