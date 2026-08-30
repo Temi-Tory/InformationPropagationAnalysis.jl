@@ -1,44 +1,43 @@
 module InformationPropagationAnalysis
 
-using JSON, DataStructures, Combinatorics
-import ProbabilityBoundsAnalysis
+# ─────────────────────────────────────────────────────────────────────────────
+# Shared infrastructure (internal — not re-exported)
+# ─────────────────────────────────────────────────────────────────────────────
+include(joinpath(@__DIR__, "Input", "Input.jl"))
+include(joinpath(@__DIR__, "Shared", "GraphValidation.jl"))
+include(joinpath(@__DIR__, "Shared", "GraphTraversal.jl"))
 
-const PBA = ProbabilityBoundsAnalysis
-const pbox = ProbabilityBoundsAnalysis.pbox
+# ─────────────────────────────────────────────────────────────────────────────
+# Toolkits
+# ─────────────────────────────────────────────────────────────────────────────
+include(joinpath(@__DIR__, "Diamonds", "Diamonds.jl"))
+include(joinpath(@__DIR__, "CriticalPath", "CriticalPath.jl"))
+include(joinpath(@__DIR__, "Probability", "Probability.jl"))
+include(joinpath(@__DIR__, "Flow", "Flow.jl"))
 
-include("InputProcessing.jl")
-include("DiamondProcessing.jl")
-include("ReachabilityAnalysis.jl")
-include("Validation.jl")
+# ─────────────────────────────────────────────────────────────────────────────
+# Public API
+#
+# The five toolkits are the surface — `IPA.Input`, `IPA.Diamonds`,
+# `IPA.Probability`, `IPA.CriticalPath`, `IPA.Flow` — each `using`-able on its own
+# (e.g. `using InformationPropagationAnalysis.Flow`). At the top level we
+# re-export the toolkit names, the two universal value types, and one blessed
+# entry point per toolkit; everything else is reached through its toolkit.
+# ─────────────────────────────────────────────────────────────────────────────
+using .Input: Interval, pbox, PBA
+using .Diamonds: new_identify
+using .Probability: update_beliefs_iterative
+using .Flow: analyze_all
 
-using .InputProcessing
-using .DiamondProcessing
-using .ReachabilityAnalysis
-using .Validation
+"""
+    critical_path(edgelist, source_values; mode = CriticalPath.LONGEST_PATH, kwargs...)
 
-export 
-        # Core types
-        DiamondsAtNode, Diamond, DiamondComputationData,
-        Interval,
+Top-level alias for `CriticalPath.analyze`.
+"""
+const critical_path = CriticalPath.analyze
 
-        # InputProcessing functions
-        read_graph_to_dict,
-        identify_fork_and_join_nodes, 
-        find_iteration_sets,
-        read_node_priors_from_json,
-        read_edge_probabilities_from_json,
-        read_complete_network,
+export Input, Diamonds, Probability, CriticalPath, Flow
+export Interval, pbox
+export new_identify, update_beliefs_iterative, critical_path, analyze_all
 
-        # Diamond processing functions
-        identify_and_group_diamonds, build_unique_diamond_storage, 
-        build_unique_diamond_storage_depth_first_parallel, create_diamond_hash_key,
-
-        # Standard reachability analysis
-        validate_network_data, update_beliefs_iterative, updateDiamondJoin,
-        calculate_diamond_groups_belief, calculate_regular_belief, inclusion_exclusion,
-        convert_to_pbox_data,
-
-        # Comparison methods
-        MC_result, has_path, path_enumeration_result
-
-end
+end # module InformationPropagationAnalysis

@@ -1,19 +1,23 @@
 # InformationPropagationAnalysis.jl
 
-A Julia package for exact reachability analysis and belief propagation in directed acyclic graphs (DAGs) with diamond structure optimization.
+Exact analysis of how information, probability, time and flow propagate through a
+**directed acyclic network**, with every quantity carried as a point value
+(`Float64`), an interval, or a probability box (`pbox`) through the *same*
+algorithm.
 
-## Overview
+[![Docs](https://img.shields.io/badge/docs-stable-blue.svg)](https://Temi-Tory.github.io/InformationPropagationAnalysis.jl/)
 
-InformationPropagationAnalysis.jl implements exact probabilistic inference for network reachability problems. The package identifies diamond structures in DAGs to optimize belief propagation computation, supporting multiple uncertainty representations including standard probabilities, interval arithmetic, and probability boxes.
+## Toolkits
 
-## Key Features
+The package is five toolkits, each a submodule you can `using` on its own:
 
-- **Exact Belief Propagation**: Computes exact reachability probabilities without approximation
-- **Diamond Structure Optimization**: 8-step algorithm identifies convergent path structures for computational efficiency
-- **Multi-Type Uncertainty**: Supports Float64, Interval arithmetic, and probability box (pbox) representations  
-- **Parallel Processing**: Thread-safe diamond processing with adaptive memory management
-- **Network Validation**: Comprehensive input validation and error checking
-- **Multiple File Formats**: Automatic detection of edge lists and adjacency matrices
+| Toolkit | Question it answers |
+|---|---|
+| `Input` | Read a network, node priors, edge probabilities and capacities from files. |
+| `Diamonds` | Where do paths reconverge, and what must be conditioned on to decorrelate them? |
+| `Probability` | The exact probability each node is operational **and** reachable from a source. |
+| `CriticalPath` | Longest / shortest / max-scaling path, forward and backward, with interval bounds. |
+| `Flow` | Max-flow, min-cut, bottlenecks, failure impact, sensitivity. |
 
 ## Installation
 
@@ -22,190 +26,97 @@ using Pkg
 Pkg.add("InformationPropagationAnalysis")
 ```
 
-## Quick Start
+Requires Julia 1.12 or newer. `ProbabilityBoundsAnalysis` does not precompile on
+Julia 1.12 (upstream); the package still loads and runs, just interpreted — see
+the [Reproducibility](https://Temi-Tory.github.io/InformationPropagationAnalysis.jl/reproducibility/)
+docs.
+
+## Quick start — exact reachability reliability
 
 ```julia
 using InformationPropagationAnalysis
+const IPA = InformationPropagationAnalysis
 
-# Load network data
-edgelist, outgoing_index, incoming_index, source_nodes = read_graph_to_dict("network.edges")
-node_priors = read_node_priors_from_json("nodepriors.json")
-edge_probabilities = read_edge_probabilities_from_json("linkprobs.json")
+# a four-node diamond: 1 forks to {2,3}, which both feed the join at 4
+edgelist = Tuple{Int64,Int64}[(1,2), (1,3), (2,4), (3,4)]
+outgoing = Dict{Int64,Set{Int64}}(1 => Set([2,3]), 2 => Set([4]), 3 => Set([4]))
+incoming = Dict{Int64,Set{Int64}}(2 => Set([1]), 3 => Set([1]), 4 => Set([2,3]))
+sources  = Set{Int64}([1])
 
-# Analyze network structure
-fork_nodes, join_nodes = identify_fork_and_join_nodes(outgoing_index, incoming_index)
-iteration_sets, ancestors, descendants = find_iteration_sets(edgelist, outgoing_index, incoming_index)
+node_priors = Dict{Int64,Float64}(n => 0.9  for n in 1:4)
+edge_probs  = Dict{Tuple{Int64,Int64},Float64}(e => 0.85 for e in edgelist)
 
-# Identify diamond structures
-root_diamonds = identify_and_group_diamonds(
-    join_nodes, incoming_index, ancestors, descendants,
-    source_nodes, fork_nodes, edgelist, node_priors, iteration_sets
-)
+itersets, anc, desc = IPA.Input.find_iteration_sets(edgelist, outgoing, incoming)
+forks, joins        = IPA.Input.identify_fork_and_join_nodes(outgoing, incoming)
 
-# Build computation structures
-unique_diamonds = build_unique_diamond_storage_depth_first_parallel(
-    root_diamonds, node_priors, ancestors, descendants, iteration_sets
-)
+structure, lookup = new_identify(edgelist, node_priors, edge_probs, sources,
+                                 forks, joins, anc, desc, itersets)
 
-# Compute reachability probabilities
-results = update_beliefs_iterative(
-    edgelist, iteration_sets, outgoing_index, incoming_index,
-    source_nodes, node_priors, edge_probabilities, descendants,
-    ancestors, root_diamonds, join_nodes, fork_nodes, unique_diamonds
-)
+belief = update_beliefs_iterative(edgelist, itersets, outgoing, incoming, sources,
+                                  node_priors, edge_probs, desc, anc,
+                                  structure, joins, forks, lookup)
 
-# View results
-for (node, probability) in results
-    println("Node $node: $(round(probability, digits=4))")
-end
+belief[4]   # exact P(node 4 up and reachable from 1)
 ```
 
-## Supported File Formats
+`using InformationPropagationAnalysis` brings in the five toolkit names, the
+value types `Interval` and `pbox`, and one blessed entry point per toolkit —
+`new_identify`, `update_beliefs_iterative`, `critical_path`, `analyze_all`.
+Everything else is reached through its toolkit (`Flow.analyze_structure`,
+`CriticalPath.LONGEST_PATH`, `Input.read_graph_to_dict`, …).
 
-### Network Structure
-- **Edge Lists**: CSV format with source,destination columns
-- **Adjacency Matrices**: Square CSV matrices with 0/1 values
-- **Auto-detection**: Automatically determines file format
+## File formats
 
-### Probability Data (JSON)
-```julia
-# Float64 probabilities
-{"1": 0.8, "2": 0.7, "3": 0.5}
+Node priors and edge probabilities are JSON keyed by node id / `"(u,v)"` edge
+string, with a `data_type` field:
 
-# Interval probabilities  
-{"1": {"type": "interval", "lower": 0.7, "upper": 0.9}}
-
-# Probability boxes
-{"1": {"type": "pbox", "construction": "parametric", "shape": "normal", "params": [0.8, 0.1]}}
+```json
+{ "data_type": "Float64",  "nodes": {"1": 0.8, "2": 0.7} }
+{ "data_type": "Interval", "nodes": {"1": {"type": "interval", "lower": 0.7, "upper": 0.9}} }
+{ "data_type": "pbox",     "nodes": {"1": {"type": "pbox", "construction": "parametric",
+                                           "shape": "normal", "params": [0.8, 0.1]}} }
 ```
 
-## Core Algorithms
-
-### Diamond Identification
-8-step algorithm that identifies convergent path structures:
-1. Collect shared fork ancestors
-2. Extract induced subgraph
-3. Identify conditioning nodes
-4. Find intermediate nodes
-5. Ensure edge completeness
-6. Perform subsource analysis
-7. Recursive diamond completeness
-8. Build final diamond structure
-
-### Belief Propagation
-Handles three network cases:
-- **Tree paths**: Direct probability propagation
-- **Independent joins**: Inclusion-exclusion principle
-- **Diamond structures**: Conditional enumeration over diamond states
-
-### Parallel Processing
-- Thread-safe diamond processing across iteration levels
-- Adaptive memory management for large networks
-- Hybrid optimization using lookup tables
-
-## Examples
-
-The package includes several example networks:
-
-```julia
-# Run power network example
-include("examples/examples.jl")
-
-# Available networks:
-# - power-network
-# - mlgw-gas-network  
-# - drone-medical-delivery-network
-# - munin-dag
-# - water
-```
-
-## Validation Methods
-
-Built-in validation against ground truth:
-
-```julia
-# Monte Carlo validation
-mc_results = MC_result(edgelist, incoming_index, source_nodes, node_priors, edge_probabilities)
-
-# Exact path enumeration
-exact_results = path_enumeration_result(outgoing_index, incoming_index, source_nodes, node_priors, edge_probabilities)
-
-# Compare results
-max_difference = maximum(abs(results[node] - exact_results[node]) for node in keys(results))
-```
+Networks are `.EDGES` files (CSV, `source,destination` header) or 0/1 adjacency
+matrices; capacities are `{"edges": [{"source": …, "destination": …, "capacity": …}]}`.
 
 ## Documentation
 
-Detailed documentation for each module:
-- [DiamondProcessing](docs/DiamondProcessing_README.md): Diamond identification and preprocessing
-- [ReachabilityAnalysis](docs/ReachabilityAnalysis_README.md): Belief propagation algorithms
-- [InputProcessing](docs/InputProcessing_README.md): Network data loading and validation
-
-## Performance
-
-The package handles networks with:
-- Thousands of nodes and edges
-- Complex diamond structures with nested dependencies
-- Multiple probability types with uncertainty quantification
-- Parallel processing on multi-core systems
-
-Computational complexity scales with diamond structure complexity rather than raw network size, providing significant speedups for networks with convergent path patterns.
-
-## Applications
-
-- **Network Reliability**: Infrastructure failure analysis
-- **System Reachability**: Communication and transportation networks
-- **Uncertainty Propagation**: Analysis with imprecise probabilities
-- **Risk Assessment**: Multi-path dependency modeling
+Full documentation, one page per toolkit, at
+<https://Temi-Tory.github.io/InformationPropagationAnalysis.jl/>.
 
 ## Citation
 
-If you use InformationPropagationAnalysis.jl in your research, please cite:
-
 ```bibtex
 @software{InformationPropagationAnalysis,
-  title={InformationPropagationAnalysis.jl: Exact Reachability Analysis with Diamond Structure Optimization},
-  author={T. Ohiani and E. Patelli},
-  year={2024},
-  url={https://github.com/Temi-Tory/IPM_Working/tree/ipa.jlV1deployment}
+  title  = {InformationPropagationAnalysis.jl: Exact Reachability Analysis with Diamond Structure Optimization},
+  author = {T. Ohiani and E. Patelli},
+  year   = {2024},
+  url    = {https://github.com/Temi-Tory/InformationPropagationAnalysis.jl}
 }
 ```
 
-### Related Publications
-
-The theoretical foundation and diamond structure concepts are described in:
+The theoretical foundation:
 
 ```bibtex
 @inproceedings{ohiani2023information,
-  title={The Information Propagation Method for Efficient Network Reliability Analysis},
-  author={T. Ohiani and E. Patelli},
-  booktitle={2023 7th International Conference on System Reliability and Safety (ICSRS)},
-  pages={580--584},
-  year={2023},
-  organization={IEEE},
-  address={Bologna, Italy},
-  doi={10.1109/ICSRS59833.2023.10381157},
-  keywords={Directed acyclic graph, Monte Carlo methods, Heuristic algorithms, Redundancy, Diamonds, Approximation algorithms, Safety, System Reliability, Probability Propagation, Network Graphs, Message Passing, Simulation}
+  title        = {The Information Propagation Method for Efficient Network Reliability Analysis},
+  author       = {T. Ohiani and E. Patelli},
+  booktitle    = {2023 7th International Conference on System Reliability and Safety (ICSRS)},
+  pages        = {580--584},
+  year         = {2023},
+  organization = {IEEE},
+  address      = {Bologna, Italy},
+  doi          = {10.1109/ICSRS59833.2023.10381157}
 }
 ```
 
 ## Acknowledgments
 
-T. Ohiani is supported by the UK National Decommissioning Authority Bursary Studentship "Developing a resilience framework for decommissioning plan of a nuclear facility".
+T. Ohiani is supported by the UK National Decommissioning Authority Bursary
+Studentship "Developing a resilience framework for decommissioning plan of a
+nuclear facility".
 
 ## License
 
-MIT License. See [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Contributions welcome! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Add tests for new functionality  
-4. Submit a pull request
-
-## Requirements
-
-- Julia ≥ 1.6
-- Dependencies: JSON, DataStructures, Combinatorics, DelimitedFiles, Random, DataFrames, Distributions, SparseArrays, ProbabilityBoundsAnalysis
+MIT. See [LICENSE](LICENSE).
