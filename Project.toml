@@ -1,7 +1,7 @@
 name = "InformationPropagationAnalysis"
 uuid = "a5102360-ae28-4698-95dd-b3596d53d633"
 authors = ["T. Ohiani"]
-version = "0.2.0"
+version = "0.2.1"
 
 [deps]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
