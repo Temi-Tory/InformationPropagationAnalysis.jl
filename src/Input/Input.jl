@@ -1,7 +1,7 @@
 module Input
     # Dependency audit (port to InformationPropagationAnalysis.jl): the only third-party
     # symbols this module actually touches are JSON.parsefile, DelimitedFiles.readdlm, and
-    # DataStructures' Queue/enqueue!/dequeue!. Random, DataFrames, Distributions,
+    # DataStructures' Queue/push!/popfirst!. Random, DataFrames, Distributions,
     # SparseArrays and Combinatorics were imported but unused — dropped.
     using DelimitedFiles, JSON, DataStructures
 
@@ -809,9 +809,9 @@ module Input
                 mean_param = params[1]
                 std_param = length(params) >= 2 ? params[2] : 1.0
                 
-                if isa(mean_param, Dict) && mean_param["type"] == "interval"
+                if isa(mean_param, AbstractDict) && mean_param["type"] == "interval"
                     mean_interval = PBA.interval(mean_param["lower"], mean_param["upper"])
-                    if isa(std_param, Dict) && std_param["type"] == "interval"
+                    if isa(std_param, AbstractDict) && std_param["type"] == "interval"
                         std_interval = PBA.interval(std_param["lower"], std_param["upper"])
                         return PBA.normal(mean_interval, std_interval)
                     else
@@ -825,9 +825,9 @@ module Input
                 a_param = params[1]
                 b_param = length(params) >= 2 ? params[2] : 1.0
                 
-                if isa(a_param, Dict) && a_param["type"] == "interval"
+                if isa(a_param, AbstractDict) && a_param["type"] == "interval"
                     a_interval = PBA.interval(a_param["lower"], a_param["upper"])
-                    if isa(b_param, Dict) && b_param["type"] == "interval"
+                    if isa(b_param, AbstractDict) && b_param["type"] == "interval"
                         b_interval = PBA.interval(b_param["lower"], b_param["upper"])
                         return PBA.uniform(a_interval, b_interval)
                     else
@@ -1286,7 +1286,7 @@ module Input
         queue = Queue{Int64}()
         for node in all_nodes
             if !haskey(incoming_index, node) || isempty(incoming_index[node])
-                enqueue!(queue, node)
+                push!(queue, node)
             end
         end
         
@@ -1298,7 +1298,7 @@ module Input
             # Process all nodes in the current level
             level_size = length(queue)
             for _ in 1:level_size
-                node = dequeue!(queue)
+                node = popfirst!(queue)
                 push!(current_set, node)
                 
                 # Process outgoing edges
@@ -1330,7 +1330,7 @@ module Input
                     
                     in_degree[target] -= 1
                     if in_degree[target] == 0
-                        enqueue!(queue, target)
+                        push!(queue, target)
                     end
                 end
             end

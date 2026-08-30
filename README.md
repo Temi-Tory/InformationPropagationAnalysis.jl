@@ -85,6 +85,12 @@ matrices; capacities are `{"edges": [{"source": …, "destination": …, "capaci
 Full documentation, one page per toolkit, at
 <https://Temi-Tory.github.io/InformationPropagationAnalysis.jl/>.
 
+## Applications
+
+[**information-propagation-no-code**](https://github.com/Temi-Tory/information-propagation-no-code)
+— a no-code workbench (HTTP server + Angular UI) built on this package: upload a
+network, run every analysis from the browser, no Julia required.
+
 ## Citation
 
 ```bibtex
