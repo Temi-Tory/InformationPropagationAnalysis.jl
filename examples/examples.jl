@@ -1,142 +1,65 @@
+# Runnable examples over the networks in examples/data/.
+#
+#   julia --project=. examples/examples.jl
+#
+# (activate an environment that has InformationPropagationAnalysis added, or run
+# from the package root with --project=.)
 
-# Check if this is the first run of the script for this julia repl session
-# This is useful to avoid re-initializing the environment multiple times
-if !@isdefined(script_initialized)
-    println("First run - initializing...")
+using InformationPropagationAnalysis
+const IPA = InformationPropagationAnalysis
 
-    import Fontconfig
-    using DataFrames, DelimitedFiles, Distributions,
-        DataStructures, SparseArrays, BenchmarkTools,
-        Combinatorics, Dates
+const DATA = joinpath(@__DIR__, "data")
 
-    # Ensure we're running from the project root directory
-    current_dir = pwd()
-    # Include the InformationPropagationAnalysis module
-    include("../src/InformationPropagationAnalysis.jl")
-    using .InformationPropagationAnalysis
+# ── helpers ──────────────────────────────────────────────────────────────────
 
-    # Mark as initialized
-    global script_initialized = true
-    println("Initialization complete!")
-else
-    println("Subsequent run - skipping initialization")
+function load_network(name)
+    dir = joinpath(DATA, name)
+    el, out, inc, src = IPA.Input.read_graph_to_dict(joinpath(dir, "$name.EDGES"))
+    itersets, anc, desc = IPA.Input.find_iteration_sets(el, out, inc)
+    forks, joins = IPA.Input.identify_fork_and_join_nodes(out, inc)
+    (; dir, el, out, inc, src, itersets, anc, desc, forks, joins)
 end
 
-network_name = "power-network"
-
-#more examples available in data folder such as:
-# network_name = "mlgw-gas-network"
-# network_name = "single-mission-drone-network"
-# network_name = "drone-medical-delivery-network"
-
-
-
-
-
-data_type = "float"
-
-
-# Construct file paths using new folder structure
-base_path = joinpath(@__DIR__, "data", network_name)
-
-# Option 1: Use edge file (recommended)
-filepath_graph = joinpath(base_path, network_name * ".EDGES");
-json_network_name = replace(network_name, "_" => "-")  # Convert underscores to hyphens for JSON files
-filepath_node_json = joinpath(base_path, data_type, json_network_name * "-nodepriors.json")
-filepath_edge_json = joinpath(base_path, data_type, json_network_name * "-linkprobabilities.json")
-
-
-
-if !isfile(filepath_graph)
-    error("Graph file not found: $filepath_graph")
-end
-if !isfile(filepath_node_json)
-    error("Node priors file not found: $filepath_node_json")
-end
-if !isfile(filepath_edge_json)
-    error("Edge probabilities file not found: $filepath_edge_json")
+function reachability(n, priors, probs)
+    s, l = new_identify(n.el, priors, probs, n.src, n.forks, n.joins, n.anc, n.desc, n.itersets)
+    update_beliefs_iterative(n.el, n.itersets, n.out, n.inc, n.src,
+                             priors, probs, n.desc, n.anc, s, n.joins, n.forks, l)
 end
 
-# Read the graph and node priors
+# ── 1. exact reachability reliability, three value forms ──────────────────────
 
-# Option 1: Separate calls (gives you more control)
-edgelist, outgoing_index, incoming_index, source_nodes = read_graph_to_dict(filepath_graph)
+let name = "power-network", n = load_network("power-network")
+    println("── $name : $(length(n.src)) sources, $(length(n.el)) edges ──")
 
-allnodes = # Get all nodes from the outgoing index
-    collect(keys(incoming_index));
-sink_nodes = #nodes with no keys in outgoing_index or with empty outgoing_index
-    filter(node -> !haskey(outgoing_index, node) || isempty(outgoing_index[node]), allnodes);
+    np = IPA.Input.read_node_priors_from_json(joinpath(n.dir, "float", "$name-nodepriors.json"))
+    ep = IPA.Input.read_edge_probabilities_from_json(joinpath(n.dir, "float", "$name-linkprobabilities.json"))
+    bel = reachability(n, np, ep)
+    println("  float  belief, worst node: ", round(minimum(values(bel)); digits = 4))
 
-node_priors = read_node_priors_from_json(filepath_node_json)
+    npi = IPA.Input.read_node_priors_from_json_interval(joinpath(n.dir, "interval", "$name-nodepriors.json"))
+    epi = IPA.Input.read_edge_probabilities_from_json_interval(joinpath(n.dir, "interval", "$name-linkprobabilities.json"))
+    beli = reachability(n, npi, epi)
+    w = argmin(v -> bel[v], collect(keys(bel)))
+    println("  interval belief at node $w: [", round(beli[w].lower; digits = 4), ", ",
+            round(beli[w].upper; digits = 4), "]  (float ", round(bel[w]; digits = 4), ")")
+end
 
-edge_probabilities = read_edge_probabilities_from_json(filepath_edge_json)
+# ── 2. diamond structure ─────────────────────────────────────────────────────
 
+let name = "munin-dag", n = load_network("munin-dag")
+    np = IPA.Input.read_node_priors_from_json(joinpath(n.dir, "float", "$name-nodepriors.json"))
+    ep = IPA.Input.read_edge_probabilities_from_json(joinpath(n.dir, "float", "$name-linkprobabilities.json"))
+    structure, lookup = new_identify(n.el, np, ep, n.src, n.forks, n.joins, n.anc, n.desc, n.itersets)
+    println("── $name : $(length(n.el)) edges, $(length(structure)) joins carry a diamond, ",
+            "$(length(lookup)) unique diamonds ──")
+end
 
-# Identify network structure
-fork_nodes, join_nodes = identify_fork_and_join_nodes(outgoing_index, incoming_index)
-iteration_sets, ancestors, descendants = find_iteration_sets(edgelist, outgoing_index, incoming_index)
+# ── 3. flow capacity ─────────────────────────────────────────────────────────
 
-
-println(" finding root diamonds");
-# Diamond structure analysis (if you have this function)
-root_diamonds = identify_and_group_diamonds(
-    join_nodes,
-    incoming_index,
-    ancestors,
-    descendants,
-    source_nodes,
-    fork_nodes,
-    edgelist,
-    node_priors,
-    iteration_sets
-);
-l_root_diamonds = length(root_diamonds);
-diamond_joins = keys(root_diamonds);
-println("Found $l_root_diamonds root_diamonds");
-println("Starting build unique diamond storage");
-unique_diamonds = build_unique_diamond_storage_depth_first_parallel(
-    root_diamonds,
-    node_priors,
-    ancestors,
-    descendants,
-    iteration_sets
-);
-l_unique_diamonds = length(unique_diamonds)
-println("Found $l_unique_diamonds unique_diamonds");
-# show(keys(root_diamonds))
-
-println("Starting iterative belief update");
-start_time = time()
-output = InformationPropagationAnalysis.update_beliefs_iterative(
-    edgelist,
-    iteration_sets,
-    outgoing_index,
-    incoming_index,
-    source_nodes,
-    node_priors,
-    edge_probabilities,
-    descendants,
-    ancestors,
-    root_diamonds,
-    join_nodes,
-    fork_nodes,
-    unique_diamonds
-);
-
-# Calculate computation time
-computation_time = time() - start_time
-
-println("Starting exact_computation");
-exact_start_time = time()
-
-exact_results = (path_enumeration_result(
-    outgoing_index,
-    incoming_index,
-    source_nodes,
-    node_priors,
-    edge_probabilities,
-   # true
-));
-
-
-exact_computation_time = time() - exact_start_time 
+let name = "power-network", n = load_network("power-network")
+    # synthesise capacities: every edge 10.0
+    caps = Dict{Tuple{Int64,Int64},Float64}(e => 10.0 for e in n.el)
+    sinks = Int64[v for v in union(keys(n.out), keys(n.inc)) if !haskey(n.out, v) || isempty(n.out[v])]
+    mf = IPA.Flow.solve_max_flow_dinic(n.el, n.out, n.inc, caps, collect(n.src), sinks)
+    println("── $name flow : max-flow = ", mf.max_flow, ", min-cut capacity = ", mf.mincut_capacity, " ──")
+end

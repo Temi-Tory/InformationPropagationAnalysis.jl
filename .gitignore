@@ -1,0 +1,12 @@
+# local scratch Julia depots
+/.julia-depot/
+/.julia-ci-depot/
+# Documenter output
+/docs/build/
+# resolved envs — a library ships Project.toml only
+/Manifest.toml
+/docs/Manifest.toml
+/test/Manifest.toml
+*.cov
+*.jl.*.cov
+*.jl.mem

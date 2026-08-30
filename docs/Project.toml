@@ -1,0 +1,6 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+InformationPropagationAnalysis = "a5102360-ae28-4698-95dd-b3596d53d633"
+
+[compat]
+Documenter = "1"

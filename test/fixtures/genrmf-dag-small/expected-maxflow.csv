@@ -1,0 +1,11 @@
+network,output,oracle,agreement,seconds
+genrmf_dag_small,dinic,oracle=GraphsFlows,PASS,0.002000
+genrmf_dag_small,edmonds_karp,oracle=GraphsFlows,PASS,0.007000
+genrmf_dag_small,push_relabel,oracle=GraphsFlows,PASS,0.097000
+genrmf_dag_medium,dinic,oracle=GraphsFlows,PASS,0.017000
+genrmf_dag_medium,edmonds_karp,oracle=GraphsFlows,PASS,0.179000
+genrmf_dag_medium,push_relabel,oracle=GraphsFlows,PASS,0.019000
+genrmf_dag_large,dinic,oracle=GraphsFlows,PASS,0.961000
+genrmf_dag_large,push_relabel,oracle=GraphsFlows,PASS,1.520000
+genrmf_dag_xlarge,dinic,oracle=GraphsFlows,PASS,0.657000
+genrmf_dag_xlarge,push_relabel,oracle=GraphsFlows,PASS,2.277000
