@@ -39,14 +39,15 @@ end
 Result of bounded minimum-cut enumeration.
 
 - `cuts`: Enumerated minimum cuts in deterministic canonical order.
-- `total_cuts`: Exact total count when `is_complete=true`; otherwise equals the
-  requested truncation bound used by enumeration (typically `cut_limit`).
-- `is_complete`: True iff all minimum cuts were enumerated.
+- `total_cuts`: Exact number of minimum cuts when `is_complete=true`; otherwise the
+  number found among the first `cut_limit` candidate subsets (a lower bound).
+- `is_complete`: True iff every candidate subset of the free zone was examined.
 - `free_zone_size`: number of free-zone nodes (in `S**` but not in `S*`).
 
-When `free_zone_size > 62`, the exact total number of cuts `2^|F|` exceeds the
-safe Int64 counting range used here. In that case enumeration is intentionally
-truncated, `is_complete=false`, and `total_cuts` reports the truncated count.
+There are at most `2^|F|` minimum cuts, one per residual-closed `R ⊆ F`; equality
+holds only when no free-zone node reaches another in the residual graph. When
+`free_zone_size > 62` the candidate count exceeds the safe Int64 range, so
+enumeration is truncated and `is_complete=false`.
 """
 struct MinCutEnumeration
     cuts::Vector{MinCut}
@@ -171,8 +172,13 @@ function _enumerate_min_cuts_with_sdouble(
     end
 
     cuts = Vector{MinCut}()
-    sizehint!(cuts, Int(to_enumerate))
 
+    # Every minimum cut is S* ∪ R for some R ⊆ F, but NOT every such R gives a minimum cut:
+    # only the R closed under residual reachability do (Picard & Queyranne 1980), so there are
+    # at most 2^|F| of them, not exactly. A subset is closed iff its cut capacity equals the
+    # max flow, so candidates are filtered on that rather than asserted. (The assertion this
+    # replaces fired on power-network-scenarios: R = {19} alone cuts 180 against a max flow of
+    # 120, because 19 reaches 20 and 21 in the residual graph.)
     for i in Int64(0):(to_enumerate - 1)
         R = _subset_from_bits(sorted_free_zone, i)
         cut_S = union(s_star, R)
@@ -184,14 +190,13 @@ function _enumerate_min_cuts_with_sdouble(
         crossing = _crossing_edges(edgelist, cut_S, cut_T)
         cap = _cut_capacity(crossing, capacities)
 
-        abs(cap - flow_result.max_flow) <= tol || throw(AssertionError(
-            "Enumerated cut capacity $cap does not match max_flow $(flow_result.max_flow) within tol=$tol"
-        ))
-
+        abs(cap - flow_result.max_flow) <= tol || continue
         push!(cuts, MinCut(cut_S, cut_T, crossing, cap))
     end
 
-    reported_total = is_complete ? total_possible : Int64(cut_limit)
+    # Complete: the exact number of minimum cuts. Truncated: the number found among the
+    # first cut_limit candidate subsets (a lower bound).
+    reported_total = Int64(length(cuts))
     return MinCutEnumeration(cuts, reported_total, is_complete, Int64(n))
 end
 
@@ -270,13 +275,14 @@ end
 
 Return all edges that appear in at least one minimum cut.
 
-This uses the exact min-cut lattice characterization:
+Exact characterization (minimum cuts = residual-closed sets between `S^*` and `S^{**}`):
 - edge is saturated, and
 - `u ∈ S^{**}`, and
-- `v ∉ S^*`.
+- `v ∉ S^*`, and
+- `v` is not reachable from `u` in the residual graph.
 
 Here `S^* = flow_result.mincut_S` and `S^{**}` is computed from one backward BFS
-in the residual graph. Zero solver calls.
+in the residual graph, plus one forward residual BFS per candidate edge. Zero solver calls.
 """
 function edges_in_some_mincut(
     edgelist::Vector{Tuple{Int64,Int64}},
@@ -370,12 +376,14 @@ Enumerate all valid minimum cuts up to `cut_limit` using the min-cut lattice.
 
 Let `S* = flow_result.mincut_S`, `S**` from backward residual reachability, and
 free zone `F` defined as nodes in `S**` but not in `S*`. Every minimum cut has the form `S = S* ∪ R` for some
-`R ⊆ F`.
+`R ⊆ F`, and `S* ∪ R` is a minimum cut iff `R` is closed under residual reachability
+(Picard & Queyranne 1980), so there are at most `2^|F|` of them.
 
 Enumeration is deterministic: `F` is sorted ascending and subsets are visited in
-binary counting order. If `2^|F| <= cut_limit`, all minimum cuts are returned and
-`is_complete=true`; otherwise the first `cut_limit` cuts are returned and
-`is_complete=false`.
+binary counting order; subsets whose cut capacity exceeds the max flow (the
+non-closed ones) are skipped. If `2^|F| <= cut_limit`, every candidate is examined,
+all minimum cuts are returned and `is_complete=true`; otherwise the first `cut_limit`
+candidates are examined and `is_complete=false`.
 """
 function enumerate_min_cuts(
     edgelist::Vector{Tuple{Int64,Int64}},
