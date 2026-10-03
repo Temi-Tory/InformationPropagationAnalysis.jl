@@ -203,4 +203,28 @@ end
     @test IPA.Flow.solve_max_flow_dinic(el, out, inc, caps, Int64[1], Int64[4]).max_flow ≈ 12.0 atol=1e-9
 end
 
+@testset "Flow — min-cut enumeration keeps only residual-closed free-zone subsets (v0.2.2 regression)" begin
+    # power-network with uniform capacity 60 and an unbounded (22,23). Free zone {19,20,21} is a
+    # residual chain 19 → 20 → 21, so only 4 of the 2^3 subsets are minimum cuts. v0.2.1 threw
+    # "Enumerated cut capacity 180.0 does not match max_flow 120.0". Expected values come from a
+    # brute-force enumeration of all 2^19 source/sink partitions.
+    dir = joinpath(FIX, "power-network")
+    el, out, inc, srcset = IPA.Input.read_graph_to_dict(joinpath(dir, "power-network.EDGES"))
+    caps = IPA.Input.read_edge_capacities_from_json(
+        joinpath(dir, "capacity-uniform60", "power-network-uniform60-capacities.json"))
+    sinks = sort!([n for n in union(keys(out), keys(inc)) if !haskey(out, n) || isempty(out[n])])
+    srcs  = sort!(collect(srcset))
+
+    kit = IPA.analyze_all(el, out, inc, caps, srcs, sinks)
+    m = kit.min_cut_analysis
+    @test m.max_flow ≈ 120.0 atol=1e-9
+    @test m.enumeration.is_complete
+    @test m.enumeration.free_zone_size == 3
+    @test m.enumeration.total_cuts == 4
+    @test sort([length(c.S) for c in m.enumeration.cuts]) == [18, 19, 20, 21]
+    @test all(c -> c.capacity ≈ 120.0, m.enumeration.cuts)
+    @test m.edges_in_some_cut == [(11, 19), (14, 21), (19, 22), (21, 22)]
+    @test isempty(m.edges_in_every_cut)
+end
+
 end

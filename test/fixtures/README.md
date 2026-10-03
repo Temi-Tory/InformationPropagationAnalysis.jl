@@ -19,6 +19,12 @@ A 23-node, 27-edge synthetic power-distribution DAG. Ships node priors / edge
 probabilities in `float/`, `interval/` and `pbox/` form, edge capacities in
 `capacity/`, and CPM durations in `cpm/`.
 
+`capacity-uniform60/` is the Baseline capacity scenario from the thesis data repository
+(`corpus/named-networks/power-network-scenarios`): every edge 60, `(22,23)` unbounded. It is
+the min-cut enumeration regression case (v0.2.2). The free zone {19, 20, 21} is a residual
+chain, so only 4 of its 8 subsets are minimum cuts. The expected cuts and edge sets come from
+a brute-force enumeration of all 2^19 source/sink partitions.
+
 - **Assertions:** float beliefs match `expected-float-beliefs.csv` (golden master,
   regenerate with `../gen_golden.jl`) *and* `v0.1.0-beliefs.json`; `belief ≤ prior`
   elementwise; the interval-valued run brackets the float run.

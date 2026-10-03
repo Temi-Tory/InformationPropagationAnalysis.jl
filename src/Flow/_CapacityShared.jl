@@ -118,17 +118,59 @@ function _edges_in_some_mincut(
     S_star = flow_result.mincut_S
     S_double_star = setdiff(all_aug_nodes, can_reach_sink)
 
+    # Saturated, u ∈ S**, v ∉ S* is necessary but NOT sufficient: the minimum cuts are the
+    # residual-closed sets between S* and S** (Picard & Queyranne 1980), so a cut containing u
+    # must also contain everything u reaches in the residual graph. The edge is in some minimum
+    # cut iff additionally v ∉ Reach_res(u): then S* ∪ Reach_res(u) is a minimum cut that
+    # separates u from v; otherwise every closed set containing u also contains v.
+    # Counterexample to the old test (power-network-scenarios Baseline): 19 → 20 → 21 are
+    # residual-linked free-zone nodes, so (19,20) passed the old test but is in no minimum cut.
+    residual_succ = _residual_successors(edgelist, capacities, flow_result.flow, tol)
+
     candidates = Tuple{Int64,Int64}[]
     for e in edgelist
         u, v = e
         saturated = abs(get(flow_result.flow, e, 0.0) - capacities[e]) <= tol
-        if saturated && (u in S_double_star) && !(v in S_star)
+        if saturated && (u in S_double_star) && !(v in S_star) &&
+           !(v in _residual_reach(u, residual_succ))
             push!(candidates, e)
         end
     end
 
     sort!(candidates)
     return candidates
+end
+
+# Residual-graph successors over ORIGINAL nodes: forward arc u→v while the edge has spare
+# capacity, backward arc v→u while it carries flow. The super source/sink are left out on
+# purpose: every node they would add is already in S* or can reach the sink, so they never
+# change which free-zone nodes a free-zone node reaches.
+function _residual_successors(
+    edgelist::Vector{Tuple{Int64,Int64}},
+    capacities::Dict{Tuple{Int64,Int64},Float64},
+    flow::Dict{Tuple{Int64,Int64},Float64},
+    tol::Float64
+)::Dict{Int64,Vector{Int64}}
+    succ = Dict{Int64,Vector{Int64}}()
+    for e in edgelist
+        u, v = e
+        f = get(flow, e, 0.0)
+        capacities[e] - f > tol && push!(get!(succ, u, Int64[]), v)
+        f > tol && push!(get!(succ, v, Int64[]), u)
+    end
+    return succ
+end
+
+function _residual_reach(start::Int64, succ::Dict{Int64,Vector{Int64}})::Set{Int64}
+    seen = Set{Int64}([start])
+    stack = [start]
+    while !isempty(stack)
+        x = pop!(stack)
+        for y in get(succ, x, Int64[])
+            y in seen || (push!(seen, y); push!(stack, y))
+        end
+    end
+    return seen
 end
 
 # ── Shared utility: bounded baseline guard ────────────────
