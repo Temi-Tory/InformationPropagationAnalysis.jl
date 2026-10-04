@@ -400,7 +400,12 @@ function node_connectivity(
     sorted_nodes = sort!(collect(all_nodes))
     super_sink = _super_sink_id(sorted_nodes)
 
-    base_caps = Dict{Tuple{Int64,Int64},Float64}(capacities)
+    # Unit EDGE capacities as well as unit node capacities, as in edge_connectivity. Keeping
+    # the real capacities here was only harmless while every edge had capacity >= 1 (a unit node
+    # cap then always binds first); an edge below 1 bound instead and gave a fractional
+    # "connectivity" (Net3 with its demand edges to the super-sink: 1.4979, rejected by the
+    # integrality check below). `capacities` is still validated above but not used here.
+    base_caps = Dict{Tuple{Int64,Int64},Float64}(e => 1.0 for e in edgelist)
 
     solver_calls = Int64[0]
     best_kappa = typemax(Int64)
