@@ -227,4 +227,22 @@ end
     @test isempty(m.edges_in_every_cut)
 end
 
+@testset "Flow — node connectivity ignores edge capacities below one (v0.2.3 regression)" begin
+    # Node connectivity counts nodes, so every edge carries unit capacity. v0.2.2 kept the real
+    # edge capacities, and on this diamond with capacity 0.5 it threw "node connectivity flow =
+    # 0.5 is not integer" (first seen on EPANET Net3 with its demand edges to a super-sink).
+    el = Tuple{Int64,Int64}[(1,2),(1,3),(2,4),(3,4)]
+    out, inc = Oracle.build_indices([Tuple{Int,Int}(e) for e in el])
+    out = Dict{Int64,Set{Int64}}(k => Set{Int64}(v) for (k, v) in out)
+    inc = Dict{Int64,Set{Int64}}(k => Set{Int64}(v) for (k, v) in inc)
+    half = Dict{Tuple{Int64,Int64},Float64}(e => 0.5 for e in el)
+    unit = Dict{Tuple{Int64,Int64},Float64}(e => 1.0 for e in el)
+    GC_ = IPA.Flow.GlobalConnectivityModule
+    @test GC_.node_connectivity(el, out, inc, half, Int64[1], Int64[4]).kappa ==
+          GC_.node_connectivity(el, out, inc, unit, Int64[1], Int64[4]).kappa
+    kit = IPA.analyze_all(el, out, inc, half, Int64[1], Int64[4])
+    @test kit.flow.max_flow ≈ 1.0 atol=1e-9
+    @test kit.global_connectivity.node_connectivity.kappa == 0   # zero on any DAG
+end
+
 end
