@@ -23,7 +23,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: ["1.12", "1"]
+        # "1" (latest release) dropped while [compat] julia = "~1.12": ProbabilityBoundsAnalysis
+        # fails to precompile on 1.13. Restore "1" when that is fixed upstream.
+        version: ["1.12"]
         os: [ubuntu-latest, windows-latest]
     steps:
       - uses: actions/checkout@v4
